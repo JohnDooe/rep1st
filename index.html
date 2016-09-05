@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--CSS-->
     <link href="css/common.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -19,16 +20,34 @@
     <![endif]-->
 </head>
 <body>
-<h1>DMT</h1>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1">
+                <span class="glyphicon glyphicon-grain" aria-hidden="true"></span>
+                <p>menu</p>
+            </div>
+            <div class="col-md-2 col-md-offset-4">
+                <h1>DMT</h1>
+                <p>Design Meets Tech</p>
+            </div>
+            <div class="col-md-1 col-md-offset-4">
+                <p>search</p>
+            </div>
+        </div>
+    </div>
+
+</header>
 <div class="first_block">
     <div class="container">
         <div class="row">
-             <div class="col-md-12">
-                <!--<img src="img/1.png" class="img-responsive img_1">-->
-                <p class="text_top">home</p>
-                <h1>Buster Bulb</h1>
-                <p>The first designer LED bulb, finished in gold glass.</p>
-                <button type="button" class="btn btn-default btn_r_m">Read more</button>
+            <div class="col-md-12">
+                <div class="buster">
+                    <p class="text_top">home</p>
+                    <h1>Buster Bulb</h1>
+                    <p>The first designer LED bulb, finished in gold glass.</p>
+                    <button type="button" class="btn btn-default btn_r_m">Read more</button>
+                </div>
             </div>
         </div>
     </div>
@@ -36,23 +55,29 @@
 <div class="second_block">
     <div class="container">
         <div class="row">
-            <div class="col-md-7 peak">
-                <!--<img src="img/2.png" class="img-responsive img_2">-->
-                <p class="text_top">accessories</p>
-                <h1>Peak</h1>
-                <p>A playful pouch with a trick up its sleeve</p>
-                <button type="button" class="btn btn-default btn_r_m">Read more</button>
+            <div class="col-md-7">
+                <div class="peak">
+                    <p class="text_top">accessories</p>
+                    <h1>Peak</h1>
+                    <p>A playful pouch with a trick up its sleeve</p>
+                    <button type="button" class="btn btn-default btn_r_m">Read more</button>
+                </div>
             </div>
-            <div class="col-md-5 good_things text-center">
-                <h1>Good Things</h1>
-                <p>...</p>
-                <p>come to those who sign up</p>
-                <p>for our newsletter.</p>
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 col-xs-6 col-xs-offset-3">
-                        <input type="email" class="form-control input_e" id="email" placeholder="Your email"></div>
-                    <div class="col-md-8 col-md-offset-2 col-xs-6 col-xs-offset-3">
-                        <button type="button" class="btn btn-default btn_s btn-block">Subscribe</button>
+            <div class="col-md-5 text-center">
+                <div class="good_things">
+                    <h1>Good Things</h1>
+                    <p>...</p>
+                    <p>come to those who sign up</p>
+                    <p>for our newsletter.</p>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 col-xs-6 col-xs-offset-3">
+                            <input type="email" class="form-control input_e" id="email" placeholder="Your email"></div>
+                        <div class="col-md-8 col-md-offset-2 col-xs-6 col-xs-offset-3">
+                            <button type="button" class="btn btn-default btn_s btn-block">Subscribe</button>
+                        </div>
+                        <div class="col-md-8 col-md-offset-2 col-xs-6 col-xs-offset-3">
+                            <p class="respect">We respect your privacy and we won’t share your information.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -62,25 +87,44 @@
 <div class="third_block">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 leica_m text-center">
-                <p class="text_top">cameras</p>
-                <h1 class="t_b_pdg_top">Leica M</h1>
-                <button type="button" class="btn btn-default btn_r">Review</button>
+            <div class="col-md-3 text-center">
+                <div class="leica_m">
+                    <p class="text_top">cameras</p>
+                    <h1 class="t_b_pdg_top">Leica M</h1>
+                    <button type="button" class="btn btn-default btn_r">Review</button>
+                </div>
             </div>
-            <div class="col-md-3 trobla_a text-center">
-                <p class="text_top">sound</p>
-                <h1 class="t_b_pdg_top">Trobla Amplifier</h1>
-                <button type="button" class="btn btn-default btn_r">Review</button>
+            <div class="col-md-3 text-center">
+                <div class="trobla_a">
+                    <p class="text_top">sound</p>
+                    <h1 class="t_b_pdg_top">Trobla Amplifier</h1>
+                    <button type="button" class="btn btn-default btn_r">Review</button>
+                </div>
             </div>
-            <div class="col-md-6 leica_d">
-                <p class="text_top">cameras</p>
-                <h1>Leica D-Lux</h1>
-                <p>Limited-edition DIesel collaboration</p>
-                <button type="button" class="btn btn-default btn_r_m">Read more</button>
+            <div class="col-md-6 ">
+                <div class="leica_d">
+                    <p class="text_top">cameras</p>
+                    <h1>Leica D-Lux</h1>
+                    <p>Limited-edition DIesel collaboration</p>
+                    <button type="button" class="btn btn-default btn_r_m">Read more</button>
+                </div>
             </div>
         </div>
     </div>
 </div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <p>Copyright DMT</p>
+            </div>
+            <div class="col-md-1 col-md-offset-9">
+                <span class="glyphicon glyphicon-grain" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-grain" aria-hidden="true"></span>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
