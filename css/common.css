@@ -31,6 +31,40 @@ body {
     font-family: Campton-BoldDEMO !important;
 }
 
+.menu {
+    font-size: 12px;
+    font-family: Campton-BoldDEMO;
+    color: #797681;
+    text-transform: uppercase;
+    margin-top: 50%;
+}
+
+.logo h1 {
+    font-size: 48px;
+    font-family: Campton-BoldDEMO;
+    margin-bottom: 0px;
+}
+
+.logo p {
+    font-size: 13px;
+    font-family: OldStandard-Regular;
+    color: #797681;
+    margin-top: 0px;
+}
+
+.search p {
+    font-size: 12px;
+    font-family: Campton-BoldDEMO;
+    color: #797681;
+    text-transform: uppercase;
+    margin-top: 50%;
+}
+
+.search p .g_s {
+    transform: scaleX(-1);
+    font-size: 13px;
+}
+
 .btn_r_m {
     color: white;
     background: rgba(0, 0, 0, 0);
@@ -71,9 +105,26 @@ body {
     margin: 40px 0px 20px 0px;
 }
 
-.respect{
+.respect {
     font-size: 14px !important;
     margin-bottom: 35px;
+}
+
+footer {
+    padding-bottom: 1%;
+}
+
+.copyr {
+    font-size: 14px;
+    font-family: Campton-LightDEMO;
+    color: #797681;
+    margin-top: 30%;
+}
+
+.social {
+    font-size: 23px;
+    color: #797681;
+    margin-top: 50%;
 }
 
 .first_block .buster {
@@ -86,7 +137,6 @@ body {
     font-size: 72px;
     font-family: Campton-BoldDEMO;
     width: 20%;
-
 }
 
 .first_block .buster p {
@@ -125,7 +175,7 @@ body {
     width: 30%;
 }
 
-.second_block .peak .btn_r_m{
+.second_block .peak .btn_r_m {
     margin-top: 150px;
     margin-bottom: -10px;
 }
@@ -199,7 +249,7 @@ body {
     width: 50%;
 }
 
-.third_block .leica_d .btn_r_m{
+.third_block .leica_d .btn_r_m {
     margin-top: 135px;
     margin-bottom: 40px;
 }
